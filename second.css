@@ -1,0 +1,119 @@
+
+
+
+body{
+
+  background-color: #FFFFFF;
+}
+/*------------------------------------------------*/
+
+
+.menu{
+width: 100%;
+color:#333;
+font-size: 20px;
+font-style:oblique;
+font-weight: bold;
+height: 50px;
+}
+.menu #logo{
+float:right;
+height: 30px
+padding:15px 30px;
+font-size: 1.2em;
+line-height: 30px;
+}
+.menu > ul {
+margin: 0;
+padding: 0;
+float:right;
+list-style-type: none;
+}
+.menu> ul > li{
+float: right;
+}
+.menuItem{
+display: inline-block;
+padding: 15px 20px;
+height: 30px;
+line-height: 30px;
+color: gray;
+text-decoration: none;
+}
+.menuItem:hover{
+background-color: #66A360;
+color: black;
+}
+/* --------------------styling sub drop down list------------------------*/
+.sub-contant{
+position: absolute;
+ top: 67px;
+overflow: hidden;
+background-color: #9DDF97;
+max-height: 0;/* to hide the drop list */
+}
+.sub-contant a{
+color: black;
+text-decoration: none;
+}
+.sub-drop{
+padding: 0;
+}
+.sub-drop ul{
+width: 120px;
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+.sub-drop ul li a {
+display: inline-block;
+padding: 10px 20px;
+}
+.sub-drop ul li:hover{
+background-color:#DAFCC4;
+}
+/* --------------------control sub drop down list------------------------*/
+.menuItem:focus{
+background-color: #ff0055;
+}
+.menu ul li:hover  .sub-contant {
+max-height: 400px;
+transition: max-height 0.5s ease-in;
+-webkit-transition:max-height 0.5s ease-in;
+-moz-transition:max-height 0.5s ease-in;
+}
+
+
+/*-------------------------------------------------*/
+
+
+.mainArt{
+
+  font-size: 1.80em;
+  border: 3px solid #73AD21;
+  background-color: #92C28E;
+  text-align: center;
+
+}
+
+
+
+    .mainP{
+      width: 50%;
+      height: 650px;
+      background-color: #E0FFCC;
+      margin-right:25%;
+      margin-top: 20px;
+      font-style:oblique;
+      position: static;
+      border: 3px solid #73AD21;
+     font-size: 30px;
+     text-align: center; }
+
+.imgP{
+
+   padding-left: 40px;
+   padding-right:40px;
+   margin-top: 10px;
+
+   }
